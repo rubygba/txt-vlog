@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/vlog/',
+  base: '/txt-vlog/',
   title: "GBA's visual knowledge logs",
   description: "logs notes about knowledge",
   themeConfig: {
