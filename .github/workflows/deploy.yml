@@ -15,7 +15,8 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      # url: ${{ steps.deployment.outputs.page_url }}
+      url: https://rubygba.github.io/vlog/
     steps:
       - uses: actions/checkout@v3
         with:
