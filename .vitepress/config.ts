@@ -1,10 +1,3 @@
-/*
- * @Date: 2023-07-05 22:51:55
- * @LastEditors: yaoweijian rubygba@foxmail.com
- * @LastEditTime: 2023-07-05 23:03:38
- * @FilePath: /txt-vlog/.vitepress/config.ts
- * @Description: koro desc
- */
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
