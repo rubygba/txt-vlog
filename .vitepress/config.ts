@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: '/txt-vlog/',
   title: "GBA's visual knowledge logs",
-  description: "logs notes about knowledge",
+  description: "Notes about knowledge",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -16,6 +16,7 @@ export default defineConfig({
       {
         text: 'Examples',
         items: [
+          { text: 'My', link: '/my' },
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
@@ -23,7 +24,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/rubygba' }
     ]
   }
 })
